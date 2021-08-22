@@ -17,6 +17,7 @@ var info;
 */
 function getColor(year) {
   return year == "31 mars 2021" ? '#1B9E77' :
+  year == "Début 2023" ? '#D95F02' :
   '#D8B2D8';
 }
 
@@ -161,7 +162,7 @@ function initMap() {
   legend.onAdd = function(map) {
     var div = L.DomUtil.create('div', 'info legend'),
     grades = [],
-    labels = ["31 mars 2021"];
+    labels = ["31 mars 2021", "Début 2023"];
 
     // On boucle sur toutes les valeurs et on génère une étiquette avec la bonne couleur pour chaque valeur
     for (var i = 0; i < labels.length; i++) {
