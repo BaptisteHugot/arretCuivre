@@ -17,7 +17,8 @@ var info;
 */
 function getColor(year) {
   return year == "31 mars 2021" ? '#1B9E77' :
-  year == "Début 2023" ? '#D95F02' :
+  year == "31 mars 2023" ? '#D95F02' :
+  year == "janvier 2025" ? '#7570B3' :
   '#D8B2D8';
 }
 
