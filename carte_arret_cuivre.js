@@ -163,7 +163,7 @@ function initMap() {
   legend.onAdd = function(map) {
     var div = L.DomUtil.create('div', 'info legend'),
     grades = [],
-    labels = ["31 mars 2021", "Début 2023"];
+    labels = ["31 mars 2021", "31 mars 2023", "janvier 2025"];
 
     // On boucle sur toutes les valeurs et on génère une étiquette avec la bonne couleur pour chaque valeur
     for (var i = 0; i < labels.length; i++) {
