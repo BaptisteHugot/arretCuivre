@@ -1,5 +1,5 @@
 # arretCuivre
-Ce programme affiche une carte montrant les différentes zones où la technologie Cuivre sera arrêtée en France, par date d'arrêt et par zone géographique. Cette carte est basée sur les données disponibles publiquement.
+Ce programme affiche une carte montrant les différentes zones où la technologie Cuivre sera arrêtée en France, par date d'arrêt et par zone géographique (regroupée par département). Cette carte est basée sur les données disponibles publiquement.
 
 ## Exemple
 Un exemple complet est disponible sur [ma page personnelle GitHub](https://baptistehugot.github.io/arretCuivre/).
